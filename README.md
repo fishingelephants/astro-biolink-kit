@@ -1,8 +1,11 @@
 # Astro Starter Kit: Biolink Clone by [Leif](https://grains.leifjerami.com)
 
+![Biolink in action](../public/biolink-clone-netlify.png)
+
 ```sh
 npm create astro@latest biolink
 ```
+
 ```sh
 git clone https://github.com/fishingelephants/biolink-clone.git
 ```
