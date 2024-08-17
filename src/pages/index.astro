@@ -16,85 +16,95 @@ import { Content as BioContent } from './bio.md';
     max-width: 500px;
   }
 
-  :global(h1) {
-    text-align: center;
-    color: #333;
-    margin-bottom: 2rem;
-  }
+:global(h1) {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
 
-  :global(h2) {
-    text-align: center;
-    color: #333;
-    margin: 2rem 2rem;
-  }
+:global(h2) {
+  text-align: center;
+  color: #333;
+  margin: 2rem 2rem;
+}
 
-  :global(ul) {
-    list-style-type: none;
-    padding: 0;
-  }
+:global(ul) {
+  list-style-type: none;
+  padding: 0;
+}
 
-  :global(li) {
-    margin-bottom: 1rem;
-  }
+:global(li) {
+  margin-bottom: 1rem;
+}
 
-  :global(a) {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    background-color: #D1D5DB;
-    border-radius: 8px;
-    text-decoration: none;
-    color: #333;
-    transition: all 0.3s ease;
-    border: 3px solid #333;
-  }
+:global(a) {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #d1d5db;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  border: 3px solid #333;
+}
 
-  :global(a:hover) {
-    border-color: #3498db;
-    background-color: #ffffff;
-    text-decoration: none;
-  }
+:global(a:hover) {
+  border-color: #3498db;
+  background-color: #ffffff;
+  text-decoration: none;
+}
 
-  :global(a i) {
-    margin-right: 15px;
-    font-size: 1.2em;
-    width: 20px;
-    text-align: center;
-    transition: color 0.3s ease;
-  }
+:global(a i) {
+  margin-right: 15px;
+  font-size: 1.2em;
+  width: 20px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
 
-  :global(a span) {
-    flex-grow: 1;
-    text-align: center;
-  }
+:global(a span) {
+  flex-grow: 1;
+  text-align: center;
+}
 
-  /* Email and TidyCal cards */
-  :global(a[href="mailto:example@email.com"]) {
-    background-color:#666;
-    border-color: #333;
-    color: white;
-  }
+/* Email and TidyCal cards */
+:global(a[href="mailto:example@email.com"]) {
+  background-color: #666;
+  border-color: #333;
+  color: white;
+}
 
-  :global(a[href="https://tidycal.com/leiflatiff/discovery"]) {
-    background-color: #0088ff;
-    border-color: #333;
-  }
-  
-  /* Hover state for cards */
-  :global(a:hover .fa-twitter) { color: #1DA1F2; }
-  :global(a:hover .fa-linkedin) { color: #0077B5; }
-  :global(a:hover .fa-github) { color: #333; }
-  :global(a:hover .fa-youtube) { color: #FF0000; }
+:global(a[href="https://tidycal.com/leiflatiff/discovery"])
+{
+  background-color: #0088ff;
+  border-color: #333;
+}
 
-  :global(a[href="mailto:example@email.com"]:hover) {
-    background-color: #999;
-    color: #333;
-    border-color: #3498db;
-  }
+/* Hover state for cards */
+:global(a:hover .fa-twitter) {
+  color: #1da1f2;
+}
+:global(a:hover .fa-linkedin) {
+  color: #0077b5;
+}
+:global(a:hover .fa-github) {
+  color: #999;
+}
+:global(a:hover .fa-youtube) {
+  color: #ff0000;
+}
 
-  :global(a[href="https://tidycal.com/leiflatiff/discovery"]:hover) {
-    background-color: #0056b3;
-    color: #ffffff;
-    border-color: #3498db;
-  }
-  </style>
+:global(a[href="mailto:example@email.com"]:hover) {
+  background-color: #999;
+  color: #333;
+  border-color: #3498db;
+}
+
+:global(a[href="https://tidycal.com/leiflatiff/discovery"]:hover)
+{
+  background-color: #0056b3;
+  color: #ffffff;
+  border-color: #3498db;
+}
+</style>

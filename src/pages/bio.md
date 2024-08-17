@@ -1,7 +1,3 @@
----
-title: My Biolink
----
-
 # Let's Connect!
 
 - [<i class="fab fa-twitter"></i><span>Twitter</span>](https://twitter.com/)
