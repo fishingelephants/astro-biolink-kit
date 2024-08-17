@@ -2,15 +2,17 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eab04209-5f7f-41ed-a8dd-c45a9ebb1834/deploy-status)](https://app.netlify.com/sites/biolink-clone/deploys)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fishingelephants/biolink-clone)
-
 ![cover](./public/biolink-in-action.png)
 
 ## See it in action
 
 [biolink-clone.netlify.app](biolink-clone.netlify.app)
 
-## Git clone repo
+## Deploy to Production
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fishingelephants/biolink-clone)
+
+### Or clone this repo
 
 ```sh
 npm create astro@latest biolink
@@ -20,7 +22,7 @@ npm create astro@latest biolink
 git clone https://github.com/fishingelephants/biolink-clone.git
 ```
 
-## 🚀 Project Structure
+## Folder Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
