@@ -6,7 +6,7 @@
 
 ## See it in action
 
-[biolink-clone.netlify.app](biolink-clone.netlify.app)
+[biolink-clone.netlify.app](https://biolink-clone.netlify.app)
 
 ## Deploy to Production
 
