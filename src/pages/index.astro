@@ -1,0 +1,136 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Content as BioContent } from './bio.md';
+---
+
+<Layout title="My Biolink">
+  <main>
+    <BioContent />
+    <h2>Etc</h2>
+    <div class="custom-links">
+      <a href="https://grains.leifjerami.com">
+        <i class="fa fa-wheat-awn"></i> <span>Grains by Leif</span>
+      </a>
+      <a href="https://www.leifjerami.com">
+        <i class="fa fa-laptop-code"></i> <span>Fractional CTO</span>
+      </a>
+      <a href="https://www.airtablewiz.com">
+        <i class="fa fa-wand-magic-sparkles"></i> <span>Airtable Wiz</span>
+      </a>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 500px;
+  }
+
+  :global(h1) {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+
+  :global(h2) {
+    text-align: center;
+    color: #333;
+    margin: 2rem 2rem;
+  }
+
+  :global(ul) {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  :global(li) {
+    margin-bottom: 1rem;
+  }
+
+  :global(a) {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #D1D5DB;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+    border: 3px solid #333;
+  }
+
+  :global(a:hover) {
+    border-color: #3498db;
+    background-color: #ffffff;
+    text-decoration: none;
+  }
+
+  :global(a i) {
+    margin-right: 15px;
+    font-size: 1.2em;
+    width: 20px;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+
+  :global(a span) {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  :global(a[href="mailto:chat@leifjerami.com"]) {
+    background-color:#999;
+    border-color: #333;
+  }
+
+  :global(a[href="mailto:chat@leifjerami.com"]:hover) {
+    background-color: #666;
+    color: #ffffff;
+    border-color: #3498db;
+  }
+
+  :global(a[href="https://tidycal.com/leiflatiff/discovery"]) {
+    background-color: #0088ff;
+    border-color: #333;
+  }
+
+  :global(a[href="https://tidycal.com/leiflatiff/discovery"]:hover) {
+    background-color: #0056b3;
+    color: #ffffff;
+    border-color: #3498db;
+  }
+
+  :global(a:hover .fa-twitter) { color: #1DA1F2; }
+  :global(a:hover .fa-linkedin) { color: #0077B5; }
+  :global(a:hover .fa-github) { color: #333; }
+  :global(a:hover .fa-youtube) { color: #FF0000; }
+  :global(a:hover .fa-wheat-awn) { color: #ff8000; }
+  :global(a:hover .fa-calendar) { color: #0088ff; }
+  :global(a:hover .fa-calendar) { color: #0088ff; } 
+  
+  /* <i class="fa fa-wheat-awn"></i> <span>Grains by Leif</span>
+      </a>
+      <a href="https://www.leifjerami.com">
+        <i class="fa fa-laptop-code"></i> <span>Fractional CTO</span>
+      </a>
+      <a href="https://www.airtablewiz.com">
+        <i class="fa fa-wand-magic-sparkles"></i> <span>Airtable Wiz</span>
+  */
+        
+  .custom-links {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .custom-links a {
+    margin: 1rem 0;
+    background-color: transparent;
+  }
+
+  .custom-links a:hover {
+    background-color: #D1D5DB;
+  }
+</style>
