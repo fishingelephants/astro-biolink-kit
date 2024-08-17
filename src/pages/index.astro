@@ -6,18 +6,6 @@ import { Content as BioContent } from './bio.md';
 <Layout title="My Biolink">
   <main>
     <BioContent />
-    <h2>Etc</h2>
-    <div class="custom-links">
-      <a href="https://grains.leifjerami.com">
-        <i class="fa fa-wheat-awn"></i> <span>Grains by Leif</span>
-      </a>
-      <a href="https://www.leifjerami.com">
-        <i class="fa fa-laptop-code"></i> <span>Fractional CTO</span>
-      </a>
-      <a href="https://www.airtablewiz.com">
-        <i class="fa fa-wand-magic-sparkles"></i> <span>Airtable Wiz</span>
-      </a>
-    </div>
   </main>
 </Layout>
 
@@ -80,20 +68,28 @@ import { Content as BioContent } from './bio.md';
     text-align: center;
   }
 
-  :global(a[href="mailto:chat@leifjerami.com"]) {
-    background-color:#999;
+  /* Email and TidyCal cards */
+  :global(a[href="mailto:example@email.com"]) {
+    background-color:#666;
     border-color: #333;
-  }
-
-  :global(a[href="mailto:chat@leifjerami.com"]:hover) {
-    background-color: #666;
-    color: #ffffff;
-    border-color: #3498db;
+    color: white;
   }
 
   :global(a[href="https://tidycal.com/leiflatiff/discovery"]) {
     background-color: #0088ff;
     border-color: #333;
+  }
+  
+  /* Hover state for cards */
+  :global(a:hover .fa-twitter) { color: #1DA1F2; }
+  :global(a:hover .fa-linkedin) { color: #0077B5; }
+  :global(a:hover .fa-github) { color: #333; }
+  :global(a:hover .fa-youtube) { color: #FF0000; }
+
+  :global(a[href="mailto:example@email.com"]:hover) {
+    background-color: #999;
+    color: #333;
+    border-color: #3498db;
   }
 
   :global(a[href="https://tidycal.com/leiflatiff/discovery"]:hover) {
@@ -101,36 +97,4 @@ import { Content as BioContent } from './bio.md';
     color: #ffffff;
     border-color: #3498db;
   }
-
-  :global(a:hover .fa-twitter) { color: #1DA1F2; }
-  :global(a:hover .fa-linkedin) { color: #0077B5; }
-  :global(a:hover .fa-github) { color: #333; }
-  :global(a:hover .fa-youtube) { color: #FF0000; }
-  :global(a:hover .fa-wheat-awn) { color: #ff8000; }
-  :global(a:hover .fa-calendar) { color: #0088ff; }
-  :global(a:hover .fa-calendar) { color: #0088ff; } 
-  
-  /* <i class="fa fa-wheat-awn"></i> <span>Grains by Leif</span>
-      </a>
-      <a href="https://www.leifjerami.com">
-        <i class="fa fa-laptop-code"></i> <span>Fractional CTO</span>
-      </a>
-      <a href="https://www.airtablewiz.com">
-        <i class="fa fa-wand-magic-sparkles"></i> <span>Airtable Wiz</span>
-  */
-        
-  .custom-links {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-
-  .custom-links a {
-    margin: 1rem 0;
-    background-color: transparent;
-  }
-
-  .custom-links a:hover {
-    background-color: #D1D5DB;
-  }
-</style>
+  </style>
