@@ -3,8 +3,9 @@
 ```sh
 npm create astro@latest biolink
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+```sh
+git clone https://github.com/fishingelephants/biolink-clone.git
+```
 
 ## 🚀 Project Structure
 
