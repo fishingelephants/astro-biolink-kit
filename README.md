@@ -15,15 +15,13 @@
 ### Or clone this repo
 
 ```sh
-npm create astro@latest biolink
+git clone https://github.com/fishingelephants/biolink-clone.git biolink
 ```
 
+#### Make sure you're inside "/biolink" folder
 ```sh
-cd biolink
-```
-
-```sh
-git clone https://github.com/fishingelephants/biolink-clone.git
+npm install
+npm run dev
 ```
 
 ## Folder Structure
@@ -38,7 +36,7 @@ Inside of your Astro project, you'll see the following folders and files:
 │       └── Layout.astro
 │   └── pages/
 │       └── index.astro
-│       └── bio.md <-your data here
+│       └── bio.md <- your data links here
 │   └── styles/
 │       └── global.css
 └── package.json
