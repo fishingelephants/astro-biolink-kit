@@ -18,9 +18,11 @@
 git clone https://github.com/fishingelephants/biolink-clone.git biolink
 ```
 
-#### Make sure you're inside "/biolink" folder
 ```sh
 npm install
+```
+
+```sh
 npm run dev
 ```
 
