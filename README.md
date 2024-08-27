@@ -4,13 +4,9 @@
 
 ## See it in action
 
-[astro-biolink-kit.netlify.app](https://astro-biolink-kit.netlify.app)
+[astro-biolink-kit.vercel.app/](https://astro-biolink-kit.vercel.app/)
 
-## Deploy to Production
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/fishingelephants/astro-biolink-kit)
-
-### Or clone this repo
+## Clone this repo
 
 ```sh
 git clone https://github.com/fishingelephants/astro-biolink-kit.git biolink
