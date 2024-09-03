@@ -1,6 +1,6 @@
 # Astro Biolink Kit by [Leif](https://grains.leifjerami.com)
 
-![cover](/biolink-in-action.png)
+![cover](./biolink-in-action.png)
 
 ## See it in action
 
