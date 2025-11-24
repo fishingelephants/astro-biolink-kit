@@ -39,7 +39,8 @@ import { Content as BioContent } from './bio.md';
 
 :global(a) {
   display: flex;
-  align-items: center;
+  position: relative;
+  justify-content: center;
   padding: 1rem;
   background-color: #d1d5db;
   border-radius: 8px;
@@ -56,7 +57,8 @@ import { Content as BioContent } from './bio.md';
 }
 
 :global(a i) {
-  margin-right: 15px;
+  position: absolute;
+  left: 1rem;
   font-size: 1.2em;
   width: 20px;
   text-align: center;
@@ -64,7 +66,6 @@ import { Content as BioContent } from './bio.md';
 }
 
 :global(a span) {
-  flex-grow: 1;
   text-align: center;
 }
 
